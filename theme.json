@@ -1,0 +1,111 @@
+{
+  "core": {
+    "blue": {
+      "200": {
+        "value": "#2999e7",
+        "type": "color"
+      },
+      "500": {
+        "value": "#004c97",
+        "type": "color",
+        "description": "This is the blue color"
+      }
+    },
+    "green": {
+      "500": {
+        "value": "#00a84a",
+        "type": "color"
+      },
+      "800": {
+        "value": "#008432",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "900": {
+        "value": "#333333",
+        "type": "color"
+      }
+    }
+  },
+  "design-system": {
+    "foreground": {
+      "default": {
+        "value": "{neutral.900}",
+        "type": "color"
+      },
+      "inverted": {
+        "value": "{neutral.0}",
+        "type": "color"
+      },
+      "selectable": {
+        "onBackground": {
+          "value": "{neutral.0}",
+          "type": "color"
+        },
+        "unselected": {
+          "value": "{green.500}",
+          "type": "color"
+        }
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{neutral.0}",
+        "type": "color"
+      },
+      "inverted": {
+        "value": "{neutral.900}",
+        "type": "color"
+      },
+      "selectable": {
+        "unselected": {
+          "value": "{green.500}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{green.800}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "innova": {
+    "background": {
+      "selectable": {
+        "unselected": {
+          "value": "{blue.500}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{blue.200}",
+          "type": "color"
+        }
+      }
+    },
+    "foreground": {
+      "selectable": {
+        "onBackground": {
+          "value": "{neutral.0}",
+          "type": "color"
+        },
+        "unselected": {
+          "value": "{blue.500}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "design-system",
+      "innova"
+    ]
+  }
+}
