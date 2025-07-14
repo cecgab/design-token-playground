@@ -1,1 +1,1 @@
-# Design Tokens Playground
+# Design Token Playground
